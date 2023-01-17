@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Base 64 e Cifra de César</title>
+    <link href="index.css" rel="stylesheet"/>
+    <script src="index.js" type="text/javascript" defer></script>
+    
+</head>
+
+<body>
+    <main>
+        <h1>Cifra de César</h1>
+
+        <div class="inserir mensagem">
+            <input type="text" name="nome" id="nome" class="colocar na caixa" placeholder="Insira sua mensagem"required> 
+            <label for="mensagem" ></label>
+        </div>
+        <br>
+        <select id="cifradores">
+            <option value="escolha seu cifrador">Escolha seu cifrador</option>
+            <option value="cifradeCesar"> Cifra de César </option>
+            <option value="base64"> Base 64 </option>
+        </select>
+        
+         <input type="number" id="numeros" placeholder="Número" min="1" max="25">
+        
+        <input type="radio" id="codificar" name="para clicar" value="Codificador" required>
+            <label for="codificar">codificar</label>
+            <input type="radio" id="decodificar" name="para clicar" value="Decodificador" required>
+            <label for="decodificar">decodificar</label>
+            <br>
+        <br>      
+        <div class="resultado">
+            <input type="text" name="nome" id="nome" class="colocar na caixa" placeholder="Resultado" required> 
+            <label for="mensagem"></label>
+        </div>
+     
+            
+    </main>
+   
+</body>
+</html>
